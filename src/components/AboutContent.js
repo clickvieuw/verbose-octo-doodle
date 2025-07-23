@@ -25,9 +25,7 @@ const AboutContent = () => {
       </div>
       
       <div className="right">
-
         <div className="img-container">
-           
             <div className="top">
                 <img src={React1} 
                 className="img"
@@ -39,21 +37,16 @@ const AboutContent = () => {
                 alt="img"/>
             </div>
         </div>
-             
-      </div>
-  
-      <div className="social">
+        <div className="socials">
              <h2>Let's connect</h2>
-           
            <div className="social-links">
               <a href="https://github.com/clickvieuw?tab=repositories"><AiFillGithub size={40} style={{color:"#fff", marginRight:"1rem"}}/></a>
               <a href="https://x.com/clickvue99"><AiFillCloseCircle size={40} style={{color:"#fff", marginRight:"1rem"}}/></a>
               <a href="https://instagram.com/davi.dbyte/"><AiFillInstagram size={40} style={{color:"#fff", marginRight:"0.5rem"}}/></a>
-  
            </div>
-      
       </div>
-
+      </div>
+  
     </div>
   )
 }
